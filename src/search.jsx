@@ -17,7 +17,7 @@ function Search() {
   };
 
   const {search} = useParams()
-  const {min,max} = useParams()
+
  async function API () {
   const api = await fetch('https://fakestoreapi.com/products')
   .then(res=>res.json())
